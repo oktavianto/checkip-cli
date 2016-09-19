@@ -1,4 +1,15 @@
 <?php
+/**
+ * cekip.php
+ *
+ * Command line interface for Check IP Address
+ *
+ * @author     Excel Dwi Oktavianto "N07HY" <excelokta@gmail.com>
+ * @copyright  2016 Excel
+ * @license    http://www.apache.org/licenses/  Apache License 2.0
+ * @version    0.5
+ */
+
 function getLink($url){
    $curl_handle=curl_init();
    curl_setopt($curl_handle,CURLOPT_URL,$url);
